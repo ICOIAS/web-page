@@ -44,7 +44,7 @@ const App: React.FC = () => {
       </header>
 
       {/* Menú móvil */}
-      {isMenuOpen && (
+      {/*isMenuOpen && (
         <div className="md:hidden bg-[#569ec2] text-white">
           {[
             'Aprende Más',
@@ -62,7 +62,7 @@ const App: React.FC = () => {
             </a>
           ))}
         </div>
-      )}
+      )*/}
 
       <main className="flex-grow container mx-auto px-4 py-8">
         <section className="mb-8 bg-white p-6 rounded-lg shadow-md">
@@ -105,7 +105,7 @@ const App: React.FC = () => {
             perderte ninguna oportunidad.
           </p>
           <a
-            href="#" // Enlace a la página de eventos o redes sociales
+            href="https://linktr.ee/aisafetyco" // Enlace a la página de eventos o redes sociales
             className="inline-block bg-[#3d84a8] text-white font-bold py-2 px-4 rounded hover:bg-[#2f6783] transition-colors duration-200"
           >
             Ver Próximos Eventos
@@ -123,7 +123,7 @@ const App: React.FC = () => {
             segura.
           </p>
           <a
-            href="#" // Enlace a información sobre los cursos o formulario de inscripción
+            href="https://forms.gle/5555555555555555" // Enlace a información sobre los cursos o formulario de inscripción
             className="inline-block bg-[#3d84a8] text-white font-bold py-2 px-4 rounded hover:bg-[#2f6783] transition-colors duration-200"
           >
             Inscríbete en AI Safety Fundamentals
@@ -141,7 +141,7 @@ const App: React.FC = () => {
             entusiastas de la IA segura.
           </p>
           <a
-            href="#" // Reemplazar con el enlace real del grupo de WhatsApp
+            href="https://chat.whatsapp.com/KwE8cciX48TAVhAOHnrLaZ" // Reemplazar con el enlace real del grupo de WhatsApp
             className="inline-block bg-[#25D366] text-white font-bold py-2 px-4 rounded hover:bg-[#128C7E] transition-colors duration-200"
           >
             Unirse al Grupo de WhatsApp
