@@ -112,7 +112,7 @@ const App: React.FC = () => {
           </a>
         </section>
 
-        <section className="mb-8 bg-white p-6 rounded-lg shadow-md">
+        {/*<section className="mb-8 bg-white p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold mb-4 text-[#3d84a8]">
             Participa en Nuestros Programas
           </h2>
@@ -128,7 +128,7 @@ const App: React.FC = () => {
           >
             Inscríbete en AI Safety Fundamentals
           </a>
-        </section>
+        </section>*/}
 
         <section className="mb-8 bg-white p-6 rounded-lg shadow-md text-center">
           <h2 className="text-2xl font-semibold mb-4 text-[#3d84a8]">
