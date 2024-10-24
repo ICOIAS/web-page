@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+body {
+  font-family: 'Merriweather', serif; /* Default font for body text */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif; /* Font for headings */
+}
+
+/* Other styles */
