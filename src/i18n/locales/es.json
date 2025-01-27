@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "team": "Equipo",
+    "contact": "Contacto",
+    "getInvolved": "Invólucrate"
+  },
+  "hero": {
+    "title": "Impulsando el futuro seguro de la IA en Colombia",
+    "description": "Trabajamos para asegurar que el desarrollo de la Inteligencia Artificial beneficie a toda la humanidad.",
+    "volunteerCTA": "Únete al equipo",
+    "learnMoreCTA": "Conoce más"
+  },
+  "areas": {
+    "alignment": {
+      "title": "Seguridad técnica",
+      "description": "Promovemos la comprensión y discusión sobre el desarrollo de sistemas de IA que estén alineados con los valores y objetivos humanos."
+    },
+    "governance": {
+      "title": "Gobernanza",
+      "description": "Facilitamos el diálogo sobre políticas y estrategias para asegurar que el desarrollo de la IA sea beneficioso y seguro para la sociedad."
+    }
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "description": "Conoce a las personas detrás de AI Safety Colombia",
+    "roles": {
+      "founder": "Cofundador"
+    },
+    "areas": {
+      "alignment": "Divulgador en seguridad técnica",
+      "governance": "Divulgador en gobernanza"
+    },
+    "bios": {
+      "jose": "Bio de Jose...",
+      "fernando": "Bio de Fernando..."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "getInTouch": "Ponte en contacto",
+    "joinGroup": "Unirse al grupo de WhatsApp",
+    "location": "Ubicación",
+    "volunteer": "¿Quieres ser voluntario?",
+    "volunteerDescription": "Estamos buscando personas apasionadas por la seguridad en IA para unirse a nuestro equipo.",
+    "volunteerCTA": "Postúlate como voluntario"
+  },
+  "header": {
+    "title": "AI Safety Colombia"
+  },
+  "activities": {
+    "title": "Nuestras actividades",
+    "aiFundamentals": {
+      "title": "AI Safety Fundamentals",
+      "description": "Facilitamos los cursos desarrollados por BlueDot Impact, introduciendo los fundamentos de la seguridad en IA a nuevos participantes."
+    },
+    "expertTalks": {
+      "title": "Charlas y cenas con expertos",
+      "description": "Organizamos espacios de diálogo con líderes en el campo de la IA, creando oportunidades de aprendizaje y networking."
+    }
+  },
+  "events": {
+    "title": "Próximos eventos",
+    "description": "Mantente atento a nuestros próximos cursos de AI Safety Fundamentals y eventos con expertos. Síguenos en nuestras redes sociales para no perderte ninguna oportunidad.",
+    "viewEventsButton": "Ver Próximos eventos"
+  },
+  "community": {
+    "title": "Únete a nuestra comunidad",
+    "description": "Sé parte de una red de innovadores comprometidos con el desarrollo responsable de la IA en Colombia. Únete a nuestro grupo de WhatsApp para estar al día con nuestras actividades y conectar con otros entusiastas de la IA segura.",
+    "joinButton": "Unirse al grupo de WhatsApp"
+  },
+  "footer": {
+    "about": "Sobre nosotros",
+    "description": "Somos una iniciativa colombiana dedicada a la divulgación y concientización sobre la importancia del desarrollo seguro y ético de la Inteligencia Artificial.",
+    "contact": "Contacto",
+    "social": "Redes sociales",
+    "copyright": "© 2025 AI Safety Colombia. Construyendo un futuro seguro e innovador."
+  },
+  "volunteer": {
+    "title": "¿Quieres ser voluntario?",
+    "description": "Estamos buscando personas apasionadas por la seguridad en IA para unirse a nuestro equipo.",
+    "whatsappButton": "Unirse al grupo de WhatsApp",
+    "emailButton": "Contactar por email"
+  }
+}

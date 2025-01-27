@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "home": "Home",
+    "team": "Team",
+    "contact": "Contact",
+    "getInvolved": "Get Involved"
+  },
+  "hero": {
+    "title": "Driving AI Safety Forward in Colombia",
+    "description": "We work to ensure that Artificial Intelligence development benefits all of humanity.",
+    "volunteerCTA": "Join the Team",
+    "learnMoreCTA": "Learn More"
+  },
+  "areas": {
+    "alignment": {
+      "title": "AI Alignment",
+      "description": "We promote understanding and discussion about the development of AI systems that are aligned with human values and objectives."
+    },
+    "governance": {
+      "title": "AI Governance",
+      "description": "We facilitate dialogue about policies and strategies to ensure AI development is beneficial and safe for society."
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Meet the people behind AI Safety Colombia",
+    "roles": {
+      "founder": "Co-founder"
+    },
+    "areas": {
+      "alignment": "Technical Safety Advocate",
+      "governance": "Governance Advocate"
+    },
+    "bios": {
+      "jose": "Jose's bio...",
+      "fernando": "Fernando's bio..."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "getInTouch": "Get in touch",
+    "joinGroup": "Join WhatsApp group",
+    "location": "Location",
+    "volunteer": "Want to volunteer?",
+    "volunteerDescription": "We're looking for people passionate about AI safety to join our team.",
+    "volunteerCTA": "Apply as volunteer"
+  },
+  "header": {
+    "title": "AI Safety Colombia"
+  },
+  "activities": {
+    "title": "Our activities",
+    "aiFundamentals": {
+      "title": "AI Safety Fundamentals",
+      "description": "We facilitate courses developed by BlueDot Impact, introducing AI safety fundamentals to new participants."
+    },
+    "expertTalks": {
+      "title": "Expert Talks and Dinners",
+      "description": "We organize dialogue spaces with AI field leaders, creating learning and networking opportunities."
+    }
+  },
+  "events": {
+    "title": "Upcoming events",
+    "description": "Stay tuned for our upcoming AI Safety Fundamentals courses and expert events. Follow us on social media to not miss any opportunity.",
+    "viewEventsButton": "View Upcoming Events"
+  },
+  "community": {
+    "title": "Join our community",
+    "description": "Be part of a network of innovators committed to responsible AI development in Colombia. Join our WhatsApp group to stay up to date with our activities and connect with other safe AI enthusiasts.",
+    "joinButton": "Join WhatsApp Group"
+  },
+  "footer": {
+    "about": "About us",
+    "description": "We are a Colombian initiative dedicated to raising awareness about the importance of safe and ethical Artificial Intelligence development.",
+    "contact": "Contact",
+    "social": "Social media",
+    "copyright": "© 2025 AI Safety Colombia. Building a safe and innovative future."
+  },
+  "volunteer": {
+    "title": "Want to volunteer?",
+    "description": "We're looking for people passionate about AI safety to join our team.",
+    "whatsappButton": "Join WhatsApp Group",
+    "emailButton": "Contact via email"
+  }
+}
