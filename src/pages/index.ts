@@ -1,3 +1,3 @@
-export * from './Home'
-export * from './Team'
-export * from './Contact'
+export { Home } from './Home'
+export { Team } from './Team'
+export { Contact } from './Contact'

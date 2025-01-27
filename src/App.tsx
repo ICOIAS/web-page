@@ -103,7 +103,7 @@ const App: React.FC = () => {
               <h3 className="text-xl font-semibold mb-4">
                 {t('footer.contact')}
               </h3>
-              <p>Email: comunicaciones@aiscol.org</p>
+              <p>E-mail: comunicaciones@aiscol.org</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-4">
