@@ -10,7 +10,7 @@ export const Team: React.FC = () => {
       role: t('team.roles.founder'),
       area: t('team.areas.governance'),
       bio: t('team.bios.jose'),
-      image: '/team/jose.jpg', // Asegúrate de tener estas imágenes
+      image: '/team/jose.jpg',
     },
     {
       name: 'Fernando',
@@ -19,7 +19,6 @@ export const Team: React.FC = () => {
       bio: t('team.bios.fernando'),
       image: '/team/fernando.jpg',
     },
-    // Añadir más miembros según sea necesario
   ]
 
   return (
@@ -27,27 +26,21 @@ export const Team: React.FC = () => {
       <h1 className="text-4xl font-bold mb-8 text-[#3d84a8]">
         {t('team.title')}
       </h1>
-
       <p className="text-xl text-[#2f6783] mb-12">{t('team.description')}</p>
-
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {teamMembers.map((member) => (
+      <div className="flex flex-row justify-center items-center gap-8">
+        {teamMembers.map(({ name, image, role, area, bio }) => (
           <div
-            key={member.name}
-            className="bg-white rounded-lg shadow-md overflow-hidden"
+            key={name}
+            className="bg-white rounded-lg shadow-md overflow-hidden flex flex-1 flex-col"
           >
-            <img
-              src={member.image}
-              alt={member.name}
-              className="w-full h-64 object-cover"
-            />
+            <img src={image} alt={name} className="w-full h-64 object-cover" />
             <div className="p-6">
               <h2 className="text-2xl font-semibold text-[#3d84a8] mb-2">
-                {member.name}
+                {name}
               </h2>
-              <p className="text-[#ff6b6b] font-medium mb-2">{member.role}</p>
-              <p className="text-[#2f6783] font-medium mb-4">{member.area}</p>
-              <p className="text-gray-600">{member.bio}</p>
+              <p className="text-[#ff6b6b] font-medium mb-2">{role}</p>
+              <p className="text-[#2f6783] font-medium mb-4">{area}</p>
+              <p className="text-gray-600">{bio}</p>
             </div>
           </div>
         ))}
