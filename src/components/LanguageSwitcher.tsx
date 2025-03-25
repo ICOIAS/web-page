@@ -5,8 +5,6 @@ export const LanguageSwitcher: React.FC = () => {
   const { i18n } = useTranslation()
   const currentLanguage = i18n.language
 
-  console.log('The current language is', currentLanguage)
-
   const [selectedLang, setSelectedLang] = useState(currentLanguage)
 
   const handleLanguageChange = (lang: string) => {
@@ -32,7 +30,6 @@ export const LanguageSwitcher: React.FC = () => {
           }`}
         >
           <span className="text-lg">{lang.flag}</span>
-          <span>{lang.label}</span>
         </button>
       ))}
     </div>

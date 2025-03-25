@@ -1,34 +1,34 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-export const Home: React.FC = () => {
+export const HomePage: React.FC = () => {
   const { t } = useTranslation()
 
   return (
     <div className="flex-grow">
       {/* Hero Section con gradiente y texto grande */}
-      <section className="bg-gradient-to-b from-[#3d84a8] to-[#2f6783] text-white py-24">
+      <section className="bg-white text-white py-24">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 max-w-4xl">
+          <h1 className="text-5xl md:text-7xl font-bold mb-8 max-w-4xl text-aiscol-primary">
             {t('hero.title')}
           </h1>
-          <p className="text-xl md:text-2xl mb-12 max-w-2xl opacity-90">
+          <p className="text-xl md:text-2xl mb-12 max-w-2xl opacity-90 text-aiscol-tertiary">
             {t('hero.description')}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
+          {/*<div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#volunteer"
-              className="bg-[#2DD4BF] text-white px-8 py-4 rounded-md hover:bg-[#14B8A6] transition-colors text-lg font-semibold text-center"
+              className="bg-aiscol-primary text-white px-8 py-4 rounded-md hover:bg-[#3182a0] transition-colors text-lg font-semibold text-center"
             >
               {t('hero.volunteerCTA')}
             </a>
             <a
               href="#learn-more"
-              className="bg-white text-[#3d84a8] px-8 py-4 rounded-md hover:bg-gray-100 transition-colors text-lg font-semibold text-center"
+              className="bg-aiscol-secondary text-white px-8 py-4 rounded-md hover:bg-gray-100 transition-colors text-lg font-semibold text-center"
             >
               {t('hero.learnMoreCTA')}
             </a>
-          </div>
+          </div>*/}
         </div>
       </section>
 
@@ -69,7 +69,7 @@ export const Home: React.FC = () => {
           </ul>
         </section>
 
-        <section
+        {/*<section
           id="volunteer"
           className="mb-8 bg-white p-6 rounded-lg shadow-md text-center"
         >
@@ -93,7 +93,7 @@ export const Home: React.FC = () => {
               {t('volunteer.emailButton')}
             </a>
           </div>
-        </section>
+        </section>*/}
       </div>
     </div>
   )

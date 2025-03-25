@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Mail, MessageCircle, MapPin } from 'lucide-react'
 
-export const Contact: React.FC = () => {
+export const ContactPage: React.FC = () => {
   const { t } = useTranslation()
 
   return (
@@ -46,7 +46,7 @@ export const Contact: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-500 rounded-lg shadow-md p-6">
+        <div className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-[#3d84a8]">
             {t('contact.volunteer')}
           </h2>

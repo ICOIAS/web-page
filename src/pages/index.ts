@@ -1,3 +1,5 @@
-export { Home } from './Home'
-export { Team } from './Team'
-export { Contact } from './Contact'
+export { HomePage } from './Home'
+export { TeamPage } from './Team'
+export { ContactPage } from './Contact'
+export { ProgramsPage } from './Programs'
+export { ProjectsPage } from './Projects'
