@@ -72,7 +72,7 @@ const App: React.FC = () => {
             </button>
           </div>
         </header>
-        {isMenuOpen && (
+        {/*isMenuOpen && (
           <div className="md:hidden bg-[#022856] text-white">
             <nav className="container mx-auto py-4 px-4 flex flex-col space-y-4">
               {navigation.map((item) => (
@@ -94,7 +94,7 @@ const App: React.FC = () => {
               </Link>
             </nav>
           </div>
-        )}
+        )}*/}
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />

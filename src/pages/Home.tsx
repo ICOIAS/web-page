@@ -36,7 +36,7 @@ export const HomePage: React.FC = () => {
       <div className="container mx-auto px-4 py-16">
         <section className="mb-16 grid md:grid-cols-2 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-4 text-[#3d84a8]">
+            <h2 className="text-2xl font-semibold mb-4 text-aiscol-tertiary">
               {t('areas.alignment.title')}
             </h2>
             <p className="text-lg text-gray-600">
@@ -44,7 +44,7 @@ export const HomePage: React.FC = () => {
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-4 text-[#3d84a8]">
+            <h2 className="text-2xl font-semibold mb-4 text-aiscol-tertiary">
               {t('areas.governance.title')}
             </h2>
             <p className="text-lg text-gray-600">
@@ -54,10 +54,10 @@ export const HomePage: React.FC = () => {
         </section>
 
         <section className="mb-8 bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold mb-4 text-[#3d84a8]">
+          <h2 className="text-2xl font-semibold mb-4 text-aiscol-tertiary">
             {t('activities.title')}
           </h2>
-          <ul className="list-disc list-inside text-lg text-[#2f6783] space-y-4">
+          <ul className="list-disc list-inside text-lg text-gray-600 space-y-4">
             <li>
               <strong>{t('activities.aiFundamentals.title')}:</strong>{' '}
               {t('activities.aiFundamentals.description')}
