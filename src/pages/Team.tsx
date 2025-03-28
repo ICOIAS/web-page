@@ -5,15 +5,13 @@ export const TeamPage: React.FC = () => {
   const { t } = useTranslation()
 
   const teamMembers = [
-    /*
     {
       name: 'Jose Gelves',
       role: t('team.roles.founder'),
       area: t('team.areas.governance'),
       bio: t('team.bios.jose'),
-      image: '/team/jose.jpg',
+      image: '/team/jose.jpeg',
     },
-    */
     {
       name: 'Fernando',
       role: t('team.roles.founder'),
