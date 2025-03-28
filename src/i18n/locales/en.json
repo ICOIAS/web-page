@@ -26,15 +26,18 @@
     "title": "Our Team",
     "description": "Meet the people behind AI Safety Colombia",
     "roles": {
-      "founder": "Co-founder"
+      "founder": "Co-founder",
+      "volunteerM": "Volunteer",
+      "volunteerF": "Volunteer"
     },
     "areas": {
-      "alignment": "Technical Safety Advocate",
-      "governance": "Governance Advocate"
+      "alignment": "Alignment",
+      "governance": "Governance"
     },
     "bios": {
       "jose": "Political Science student at Universidad de los Andes with a focus on public policy and economics. This semester, he will intern at the Digital Development Directorate of the National Planning Department. He is interested in contributing to the development and safe deployment of artificial intelligence, striving to make this technology a force for progress in developing countries like Colombia.",
-      "fernando": "Artificial Intelligence Risk Analyst at the Observatory of Global Catastrophic Risks (ORCG) and a Systems Engineering graduate from Universidad de los Andes. His interest in artificial intelligence lies in its tremendous impact on the economy and technology, making it crucial to ensure that this impact is safe. Fernando is committed to fostering the responsible development of AI, ensuring that this technology becomes a tool for sustainable and equitable progress worldwide."
+      "fernando": "Artificial Intelligence Risk Analyst at the Observatory of Global Catastrophic Risks (ORCG) and a Systems Engineering graduate from Universidad de los Andes. His interest in artificial intelligence lies in its tremendous impact on the economy and technology, making it crucial to ensure that this impact is safe. Fernando is committed to fostering the responsible development of AI, ensuring that this technology becomes a tool for sustainable and equitable progress worldwide.",
+      "gabriela": "Software engineer and graduate of Systems & Computer Engineering and Industrial Engineering from the Universidad de los Andes. Her motivation to understand artificial intelligence in depth and the challenges posed by its rapid expansion has driven her to work for a technologically sustainable future in which this tool allows a better quality of life for people."
     }
   },
   "contact": {

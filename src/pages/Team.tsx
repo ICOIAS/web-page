@@ -21,6 +21,13 @@ export const TeamPage: React.FC = () => {
       bio: t('team.bios.fernando'),
       image: '/team/fernando.jpeg',
     },
+    {
+      name: 'Gabriela',
+      role: t('team.roles.volunteerF'),
+      area: t('team.areas.alignment'),
+      bio: t('team.bios.gabriela'),
+      image: '/team/gabriela.jpeg',
+    },
   ]
 
   return (
@@ -35,7 +42,7 @@ export const TeamPage: React.FC = () => {
         {teamMembers.map(({ name, image, role, area, bio }) => (
           <div
             key={name}
-            className="bg-white rounded-lg shadow-md overflow-hidden flex flex-1 flex-col max-w-96"
+            className="bg-white rounded-lg shadow-md flex flex-col max-w-96 min-h-[750px]"
           >
             <img src={image} alt={name} className="w-full h-64 object-cover" />
             <div className="p-6">

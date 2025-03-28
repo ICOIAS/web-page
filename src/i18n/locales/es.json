@@ -26,15 +26,18 @@
     "title": "Nuestro Equipo",
     "description": "Conoce a las personas detrás de AI Safety Colombia",
     "roles": {
-      "founder": "Cofundador"
+      "founder": "Cofundador",
+      "volunteerM": "Voluntario",
+      "volunteerF": "Voluntaria"
     },
     "areas": {
-      "alignment": "Experto en seguridad técnica",
-      "governance": "Experto en gobernanza"
+      "alignment": "Alignment",
+      "governance": "Gobernanza"
     },
     "bios": {
       "jose": "Estudiante de Ciencia Política en la Universidad de los Andes con un enfoque en políticas públicas y economía. Este semestre realizará una pasantía en la Dirección de Desarrollo Digital del Departamento Nacional de Planeación. Está interesado en trabajar por el desarrollo y el despliegue seguro de la inteligencia artificial, buscando que esta tecnología sea una fuerza para el progreso en países en vías de desarrollo como Colombia.",
-      "fernando": "Analista en Riesgos de Inteligencia Artificial en el Observatorio de Riesgos Catastróficos Globales (ORCG) y egresado de Ingeniería de Sistemas de la Universidad de los Andes. Su interés en la inteligencia artificial radica en su tremendo impacto en la economía y la tecnología, lo que hace crucial garantizar que dicho impacto sea seguro. Fernando trabaja con el objetivo de promover el desarrollo responsable de la IA, asegurando que esta tecnología sea una herramienta para el progreso sostenible y equitativo a nivel global."
+      "fernando": "Analista en Riesgos de Inteligencia Artificial en el Observatorio de Riesgos Catastróficos Globales (ORCG) y egresado de Ingeniería de Sistemas de la Universidad de los Andes. Su interés en la inteligencia artificial radica en su tremendo impacto en la economía y la tecnología, lo que hace crucial garantizar que dicho impacto sea seguro. Fernando trabaja con el objetivo de promover el desarrollo responsable de la IA, asegurando que esta tecnología sea una herramienta para el progreso sostenible y equitativo a nivel global.",
+      "gabriela": "Ingeniera de software y egresada de Ingeniería de Sistemas & Computación e Ingeniería Industrial de la Universidad de los Andes. Su motivación por entender a profundidad la inteligencia artificial y los retos que plantea su rápida expansión la ha impulsado a trabajar por un futuro tecnológicamente sostenible en el que esta herramienta permita una mejor calidad de vida para las personas."
     }
   },
   "contact": {
