@@ -20,7 +20,7 @@ import {
   faGithub,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -126,7 +126,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="flex items-center space-x-2">
                   <FontAwesomeIcon
-                    icon={faPhone}
+                    icon={faWhatsapp}
                     className="text-aiscol-light"
                   />
                   <p>+57 316 491 7357</p>
